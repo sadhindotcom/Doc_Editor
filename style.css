@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.container {
+    padding: 5px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 5);
+    outline: none;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 3px solid #cccc;
+}
+
+.controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-btn-container {
+    display: flex;
+}
+
+.control-btn {
+    margin: 5px;
+    width: 50px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main-controls {
+    display: flex;
+}
+
+#input {
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 2px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+}
+/* #add{
+    margin-left: 3px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(21, 141, 246);
+    color: white;
+} */
+
+#content {
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    min-height: 50vh;
+    outline: none;
+
+}
+.container-list{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+table tr td button {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+@media screen and(max-width:900px) 
+{
+
+    .container {
+
+        margin-top: 50px;
+        padding: 5px;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .controls {
+
+       display: block;
+       justify-items: center;
+    }
+
+}
